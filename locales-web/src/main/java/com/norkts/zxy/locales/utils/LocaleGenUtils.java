@@ -58,4 +58,8 @@ public class LocaleGenUtils {
 
         return maps;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
