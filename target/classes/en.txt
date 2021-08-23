@@ -1,0 +1,857 @@
+内容编号	英文内容
+1.1.1.1 	Trade
+1.1.1.2 	Rewards
+1.1.1.3 	Broker
+1.1.1.4 	Data
+1.1.1.5 	Click To Login
+1.1.1.6 	Click to connect your wallet
+1.1.1.7 	Connect Wallet
+1.1.1.8	Home
+1.1.1.9	Wallet Address
+1.2.1.1 	Connect Wallet
+1.2.1.2 	Choose Network
+1.2.1.3 	Choose Wallet
+1.2.1.4 	No wallet detected, please install Metamask first.
+1.2.1.5 	Your wallet network does not match the network you choose. Please switch to {0} Testnet of Ethereum and retry.
+1.3.1.1	Wallet Address
+1.3.1.2	Margin Account
+1.3.1.3	Account Balance
+1.3.1.4	Balance History
+1.3.1.5	Margin Balance
+1.3.1.6	Margin
+1.3.1.7	Deposit
+1.3.1.8	Withdraw
+1.3.1.9	Disconnect
+1.3.2.1	Transfers
+1.3.2.2	From
+1.3.2.3	To
+1.3.2.4	My Wallet
+1.3.2.5	Margin Account
+1.3.2.6	Size
+1.3.2.7	Error, please retry
+1.3.2.8	Max
+1.3.2.9	All
+1.3.2.10	Deposit
+1.3.2.11	Withdraw
+1.3.2.12	Pending ……
+1.3.2.13	Successful
+1.3.2.14	Error, please retry.
+1.3.3.1	Balance History
+1.3.3.2	Type
+1.3.3.3	Amount
+1.3.3.4	Balance
+1.3.3.5	Time
+1.3.3.6	Gas
+1.3.3.7	Trad. Fee
+1.3.3.8	Profit
+1.3.3.9	Loss
+1.3.3.10	Realized PnL
+1.3.3.11	PCF
+1.3.3.12	Liq. Cost
+1.3.3.13	Compensation
+1.3.3.14	Sys. Loss
+1.3.3.15	Withdraw
+1.3.3.16	Deposit
+1.3.3.17	No more info
+1.4.1.1	Bind Your Broker Privilege
+1.4.1.2	Broker Code
+1.4.1.3	No Broker Code
+1.4.1.4	The Broker Code you submit does not exist
+1.4.1.5	Submit
+1.4.2.1	Choose Broker
+1.4.2.2	Have Broker Code
+1.4.2.3	No more info.
+1.4.2.4	Submit
+1.5.1.1	Market
+1.5.2.1	PCF Rate
+1.5.2.2	PM APY
+1.5.2.3	Long
+1.5.2.4	Short
+1.5.3.1	PCF Rate Transactions that increase system risk have to reward transactions that decrease system risk. Positive rate means PCF payment is required for opening long/closing short, and opening short/closing long gets the PCF reward, vice versa. Detailed rules click here.
+1.5.3.2	Position Mining APY The higher the leverage of positions, the higher the APY of position mining will be. Mining rules click here.
+1.5.4.1	Market
+1.5.4.2	Limit
+1.5.4.3	Price
+1.5.4.4	Market Price
+1.5.4.5	Error, please retry
+1.5.4.6	Amount
+1.5.4.7	Max
+1.5.4.8	Transfer
+1.5.4.9	Buy / Long
+1.5.4.10	Sell / Short
+1.5.4.11	Two Way
+1.5.4.12	You can only place Two-way positions via market order
+1.5.5.1	Confirm
+1.5.5.2	Price
+1.5.5.3	Market
+1.5.5.4	Type
+1.5.5.5	Long
+1.5.5.6	Short
+1.5.5.7	Two-Way
+1.5.5.8	Amount
+1.5.5.9	PCF（Estimate）
+1.5.5.10	Trad. Fee
+1.5.5.11	Cancel
+1.5.5.12	Confirm
+1.5.5.13	Pending ……
+1.5.5.14	Successful
+1.5.5.15	Error, please retry.
+1.5.5.16	Liquidity limit reached, maximum order
+1.6.1.1	My Position
+1.6.1.2	L
+1.6.1.3	S
+1.6.1.4	Unrealized PnL
+1.6.1.5	Position Held
+1.6.1.6	Current Price
+1.6.1.7	Average Price
+1.6.1.8	SL
+1.6.1.9	TP
+1.6.1.10	Margin
+1.6.1.11	Risk
+1.6.1.12	Liq. Price
+1.6.1.13	Set TP / SL
+1.6.1.14	Close
+1.6.1.15	No more info
+1.6.1.16	One-Click Close
+1.6.2.1	Unrealized PnL Unrealized P&L of Long Position = (Current Derivative Price – Average Position Price) * Position Held Unrealized P&L of Short Position = (Average Position Price - Current Derivative Price) * Position Held
+1.6.2.2	Position Held Position Held in this Derivative
+1.6.2.3	Current Price Current Derivative Price of the Platform
+1.6.2.4	Average Price Average Opening Price for this Position
+1.6.2.5	Position Margin Used Position Margin = Position Held/Leverage
+1.6.2.6	Risk Risk increases as the margin rate decreases. When the margin rate is smaller than the maintenance margin 3%, the auto deleveraging will be triggered. Detailed rules click here>>
+1.6.2.7	Liquidation Price This price is the expected mandatory liquidation price. If the derivative price is lower than this price (long position) or higher than this price (short position), your position may be liquidated automatically. Know more>>
+1.6.2.8	Stop Loss Setting When the SL price is reached, system will be automatically close your position to prevent further loss.
+1.6.2.9	Take Profit Setting When the TP price is reached, system will be automatically close your position to realize your current profit.
+1.6.3.1	Set TP / SL
+1.6.3.2	Average Price
+1.6.3.3	Current Price
+1.6.3.4	Take Profit
+1.6.3.5	When Market Price reaches {0}, it will trigger Take Profit Market order to close this position, Estimated profit will be {1} USDT.
+1.6.3.6	Stop Loss
+1.6.3.7	When Market Price reaches {0}, it will trigger Stop Loss Market order to close this position, Estimated loss will be {1} USDT.
+1.6.3.8	Error, please retry
+1.6.3.9	Cancel
+1.6.3.10	Confirm
+1.6.3.11	Pending ……
+1.6.3.12	Successful
+1.6.3.13	Error, please retry.
+1.6.4.1	Close
+1.6.4.2	Position Held
+1.6.4.3	Average Price
+1.6.4.4	Current Price
+1.6.4.5	Amount
+1.6.4.6	Error, please retry
+1.6.4.7	Cancel
+1.6.4.8	Confirm
+1.6.4.9	One-Click Close
+1.6.4.10	Click to close all positions at Market Price
+1.6.4.11	Pending ……
+1.6.4.12	Successful
+1.6.4.13	Error, please retry.
+1.7.1.1	Current Order
+1.7.1.2	L
+1.7.1.3	S
+1.7.1.4	Price
+1.7.1.5	Type
+1.7.1.6	Volume
+1.7.1.7	Open / Limit
+1.7.1.8	Close / TP
+1.7.1.9	Close / SL
+1.7.1.10	Time
+1.7.1.11	Cancel
+1.7.1.12	Cancel All
+1.7.1.13	No more info
+1.7.2.1	Order Price Target execution price of this order.
+1.7.2.2	Order Volume The volume of asset this order will be trading.
+1.7.2.3	Order Time The moment this order is placed.
+1.7.3.1	Cancel
+1.7.3.2	Click to CANCEL the order
+1.7.3.3	Cancel All
+1.7.3.4	Click to CANCEL ALL orders
+1.7.3.5	Cancel
+1.7.3.6	Confirm
+1.7.3.7	Pending ……
+1.7.3.8	Successful
+1.7.3.9	Error, please retry.
+1.8.1.1	Trade History
+1.8.1.2	L
+1.8.1.3	S
+1.8.1.4	Realized PnL
+1.8.1.5	Type
+1.8.1.6	Price
+1.8.1.7	Volume
+1.8.1.8	Amount
+1.8.1.9	Trad. Fee
+1.8.1.10	PCF
+1.8.1.11	Compensation
+1.8.1.12	Open / Market
+1.8.1.13	Open/ Limit
+1.8.1.14	Close/ Market
+1.8.1.15	Close / TPSL
+1.8.1.16	Close / Deleverage
+1.8.1.17	Close / Liquidate
+1.8.1.18	No more info
+1.8.2.1	PnL Long position PnL = (Close Price - Open Price) * Amount Short position PnL = (Open Price - Close Price) * Amount
+1.8.2.2	Price The price when you open/close your position.
+1.8.2.3	Volume The volume of asset this order be opened/closed
+1.8.2.4	Amount Amount = Price * Volume
+1.8.2.5	Trading Fees Trading Fees when you open/close position.
+1.8.2.6	PCF PCF rewards (positive) or payment (negative) when you open/close your position.
+1.8.2.7	Compensation Your profit paid in bDRF.
+2.1.1.1	Position Mining
+2.1.1.2	Position Held
+2.1.1.3	Accumulated Reward
+2.1.1.4	Transaction History
+2.1.1.5	Withdraw
+2.1.1.6	Open position
+2.1.2.1	Amount
+2.1.2.2	Max
+2.1.2.3	All
+2.1.2.4	Cancel
+2.1.2.5	Withdraw
+2.1.2.6	Error, please retry
+2.1.2.7	Pending ……
+2.1.2.8	Successful
+2.1.2.9	Error, please retry.
+2.1.3.1	Position Mining
+2.1.3.2	Type
+2.1.3.3	Amount
+2.1.3.4	Balance
+2.1.3.5	Time
+2.1.3.6	Earning
+2.1.3.7	Withdraw
+2.1.3.8	No more info
+2.2.1.1	eDRF Account
+2.2.1.2	Transaction History
+2.2.1.3	Stak. Amount (DRF)
+2.2.1.4	Daily Yield (eDRF)
+2.2.1.5	Withdraw
+2.2.1.6	Redeem
+2.2.1.7	Staking
+2.2.2.1	Withdraw eDRF
+2.2.2.2	Amount
+2.2.2.3	Max
+2.2.2.4	All
+2.2.2.5	Cancel
+2.2.2.6	Withdraw
+2.2.2.7	Error, please retry
+2.2.2.8	Pending ……
+2.2.2.9	Successful
+2.2.2.10	Error, please retry.
+2.2.3.1	Redeem DRF
+2.2.3.2	DRF Account
+2.2.3.3	My Wallet
+2.2.3.4	Amount
+2.2.3.5	Max
+2.2.3.6	All
+2.2.3.7	Cancel
+2.2.3.8	Redeem
+2.2.3.9	Error, please retry
+2.2.3.10	Pending ……
+2.2.3.11	Successful
+2.2.3.12	Error, please retry.
+2.2.4.1	Staking DRF
+2.2.4.2	DRF Account
+2.2.4.3	My Wallet
+2.2.4.4	Amount
+2.2.4.5	Max
+2.2.4.6	All
+2.2.4.7	Cancel
+2.2.4.8	Staking
+2.2.4.9	Error, please retry
+2.2.4.10	Pending ……
+2.2.4.11	Successful
+2.2.4.12	Error, please retry.
+2.2.5.1	eDRF
+2.2.5.2	Type
+2.2.5.3	Amount
+2.2.5.4	Balance
+2.2.5.5	Time
+2.2.5.6	Earning
+2.2.5.7	Withdraw
+2.2.5.8	Burn
+2.2.5.9	No more info
+2.3.1.1	bDRF Account
+2.3.1.2	Transaction History
+2.3.1.3	Staking Amount (bDRF)
+2.3.1.4	Withdraw
+2.3.1.5	Exchange
+2.3.1.6	Redeem
+2.3.1.7	Staking
+2.3.2.1	Withdraw bDRF
+2.3.2.2	Amount
+2.3.2.3	Max
+2.3.2.4	All
+2.3.2.5	Cancel
+2.3.2.6	Withdraw
+2.3.2.7	Error, please retry
+2.3.2.8	Pending ……
+2.3.2.9	Successful
+2.3.2.10	Error, please retry.
+2.3.3.1	Exchange bDRF
+2.3.3.2	bDRF Account
+2.3.3.3	My Wallet
+2.3.3.4	Amount
+2.3.3.5	Max
+2.3.3.6	All
+2.3.3.7	Cancel
+2.3.3.8	Exchange
+2.3.3.9	Error, please retry
+2.3.3.10	Pending ……
+2.3.3.11	Successful
+2.3.3.12	Error, please retry.
+2.3.4.1	Redeem bDRF
+2.3.4.2	bDRF Account
+2.3.4.3	My Wallet
+2.3.4.4	Amount
+2.3.4.5	Max
+2.3.4.6	All
+2.3.4.7	Cancel
+2.3.4.8	Redeem
+2.3.4.9	Error, please retry
+2.3.4.10	Pending ……
+2.3.4.11	Successful
+2.3.4.12	Error, please retry.
+2.3.5.1	Staking bDRF
+2.3.5.2	bDRF Account
+2.3.5.3	My Wallet
+2.3.5.4	Amount
+2.3.5.5	Max
+2.3.5.6	All
+2.3.5.7	Cancel
+2.3.5.8	Staking
+2.3.5.9	Error, please retry
+2.3.5.10	Pending ……
+2.3.5.11	Successful
+2.3.5.12	Error, please retry.
+2.3.6.1	bDRF
+2.3.6.2	Type
+2.3.6.3	Amount
+2.3.6.4	Balance
+2.3.6.5	Time
+2.3.6.6	System compensation
+2.3.6.7	Staking interest
+2.3.6.8	Withdraw
+2.3.6.9	Exchange
+2.3.6.10	Staking
+2.3.6.11	Redeem
+2.3.6.12	No more info
+3.1.1.1	Brokers
+3.1.1.2	You are not a Broker
+3.1.1.3	Apply to be Broker
+3.1.1.4	Burn 60,000 eDRF to get Brokers Privilege
+3.1.1.5	eDRF Account
+3.1.1.6	My Wallet
+3.1.1.7	Account Balance
+3.1.1.8	Cancel
+3.1.1.9	Confirm
+3.1.1.10	Insufficient Account Balance, choose another account
+3.1.1.11	Pending ……
+3.1.1.12	Error, please retry.
+3.1.1.13	You Purchased Broker Privilege!
+3.1.1.14	Add Info
+3.1.2.1	Wallet Address
+3.1.2.2	Name
+3.1.2.3	Avatar
+3.1.2.4	Broker Code
+3.1.2.5	Photo size shall not be larger than 2m, please retry
+3.1.2.6	Your Code is occupied, choose another one
+3.1.2.7	Broker Info
+3.1.2.8	Commit
+3.1.3.1	Acc. Balance
+3.1.3.2	Withdraw
+3.1.3.3	Daily Earning
+3.1.3.4	Accumulated Earning
+3.1.3.5	Privilege Valid until
+3.1.3.6	My referral page
+3.1.3.7	Days
+3.1.3.8	Until {0}/{1}/{1}
+3.1.3.9	Burn
+3.1.3.10	Note:
+3.1.3.11	Derify has Broker system, traders will be trading on our Broker’s page, Derify does not directly provide service.
+3.1.3.12	 Brokers will receive trading fee rewards and potential DRF rewards.
+3.1.3.13	Brokers need to burn eDRF to maintain its privilege. (Current price is 600 eDRF per day).
+3.1.3.14	 Once your privilege is expired, you will not be able to receive rewards, but your can resume as our Broker whenever you like.
+3.1.4.1	Withdraw
+3.1.4.2	Amount
+3.1.4.3	Max
+3.1.4.4	All
+3.1.4.5	Cancel
+3.1.4.6	Withdraw
+3.1.5.1	Burn
+3.1.5.2	Balance
+3.1.5.3	Unit Price
+3.1.5.4	eDRF Account
+3.1.5.5	My Wallet
+3.1.5.6	Burn Amount
+3.1.5.7	Valid Period + {0} days
+3.1.5.8	Error, please retry
+3.1.5.9	Cancel
+3.1.5.10	Burn
+3.1.5.11	Pending ……
+3.1.5.12	Successful
+3.1.5.13	Error, please retry.
+3.1.6.1	Account History
+3.1.6.2	Type
+3.1.6.3	Amount
+3.1.6.4	Balance
+3.1.6.5	Time
+3.1.6.6	Earnings
+3.1.6.7	Withdraw
+3.1.7.1	Trader Info
+3.1.7.2	Trader Address
+3.1.7.3	Registration Date
+4.1.1.1	Data
+4.1.1.2	Trading Volume
+4.1.1.3	All
+4.1.1.4	Trad. Fee Earning
+4.1.2.1	Position Volume
+4.1.2.2	Total Long
+4.1.2.3	Total Short
+4.1.3.1	Insurance Pool
+4.1.3.2	Insurance Pool Balance
+4.1.4.1	Token Info
+4.1.4.2	Price
+4.1.4.3	Total Destroyed Volume
+4.1.4.4	Buy Back Fund Balance
+4.2.1.1	Trade History
+4.2.1.2	Contract
+4.2.1.3	Trade Type
+4.2.1.4	Size
+4.2.1.5	Time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
