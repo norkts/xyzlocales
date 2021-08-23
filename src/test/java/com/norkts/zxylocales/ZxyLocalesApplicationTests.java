@@ -1,13 +1,13 @@
-package com.norkts.zxy.locales.web;
+package com.norkts.zxylocales;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LocalesWebApplicationTests {
+class ZxyLocalesApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
