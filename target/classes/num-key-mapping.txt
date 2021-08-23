@@ -68,7 +68,9 @@
 1.5.2.3	Trade.OpenPosition.Kline.Long
 1.5.2.4	Trade.OpenPosition.Kline.Short
 1.5.3.1	Trade.OpenPosition.Hint.PCFRate
+1.5.3.1.1	Trade.OpenPosition.Hint.PCFRateDetail
 1.5.3.2	Trade.OpenPosition.Hint.PositionMiningAPY
+1.5.3.2.1	Trade.OpenPosition.Hint.PositionMiningAPYDetail
 1.5.4.1	Trade.OpenPosition.OpenPage.Market
 1.5.4.2	Trade.OpenPosition.OpenPage.Limit
 1.5.4.3	Trade.OpenPosition.OpenPage.Price
@@ -114,14 +116,24 @@
 1.6.1.15	Trade.MyPosition.List.NoMoreInfo
 1.6.1.16	Trade.MyPosition.List.OneClickClose
 1.6.2.1	Trade.MyPosition.Hint.UnrealizedPnL
+1.6.2.1.1	Trade.MyPosition.Hint.UnrealizedPnLDetail1
+1.6.2.1.2	Trade.MyPosition.Hint.UnrealizedPnLDetail2
 1.6.2.2	Trade.MyPosition.Hint.PositionHeld
+1.6.2.2.1	Trade.MyPosition.Hint.PositionHeldDetail
 1.6.2.3	Trade.MyPosition.Hint.CurrentPrice
+1.6.2.3.1	Trade.MyPosition.Hint.CurrentPriceDetail
 1.6.2.4	Trade.MyPosition.Hint.AveragePrice
+1.6.2.4.1	Trade.MyPosition.Hint.AveragePriceDetail
 1.6.2.5	Trade.MyPosition.Hint.PositionMargin
+1.6.2.5.1	Trade.MyPosition.Hint.PositionMarginDetail
 1.6.2.6	Trade.MyPosition.Hint.Risk
+1.6.2.6.1	Trade.MyPosition.Hint.RiskDetail
 1.6.2.7	Trade.MyPosition.Hint.LiquidationPrice
+1.6.2.7.1	Trade.MyPosition.Hint.LiquidationPriceDetail
 1.6.2.8	Trade.MyPosition.Hint.StopLossSetting
+1.6.2.8.1	Trade.MyPosition.Hint.StopLossSettingDetail
 1.6.2.9	Trade.MyPosition.Hint.TakeProfitSetting
+1.6.2.9.1	Trade.MyPosition.Hint.TakeProfitSettingDetail
 1.6.3.1	Trade.MyPosition.SetStopPricePopup.SetTPSL
 1.6.3.2	Trade.MyPosition.SetStopPricePopup.AveragePrice
 1.6.3.3	Trade.MyPosition.SetStopPricePopup.CurrentPrice
@@ -162,8 +174,11 @@
 1.7.1.12	Trade.CurrentOrder.List.CancelAll
 1.7.1.13	Trade.CurrentOrder.List.NoMoreInfo
 1.7.2.1	Trade.CurrentOrder.Hint.OrderPrice
+1.7.2.1.1	Trade.CurrentOrder.Hint.OrderPriceDetail
 1.7.2.2	Trade.CurrentOrder.Hint.OrderVolume
+1.7.2.2.1	Trade.CurrentOrder.Hint.OrderVolumeDetail
 1.7.2.3	Trade.CurrentOrder.Hint.OrderTime
+1.7.2.3.1	Trade.CurrentOrder.Hint.OrderTimeDetail
 1.7.3.1	Trade.CurrentOrder.CancelOrderPopup.CancelOneOrder
 1.7.3.2	Trade.CurrentOrder.CancelOrderPopup.CancelOneOrderInfo
 1.7.3.3	Trade.CurrentOrder.CancelOrderPopup.CancelAllOrder
@@ -192,12 +207,20 @@
 1.8.1.17	Trade.TradeHistory.List.CloseLiquidate
 1.8.1.18	Trade.TradeHistory.List.NoMoreInfo
 1.8.2.1	Trade.TradeHistory.Hint.PnL
+1.8.2.1.1	Trade.TradeHistory.Hint.PnLDetail1
+1.8.2.1.2	Trade.TradeHistory.Hint.PnLDetail2
 1.8.2.2	Trade.TradeHistory.Hint.OrderPrice
+1.8.2.2.1	Trade.TradeHistory.Hint.OrderPriceDetail
 1.8.2.3	Trade.TradeHistory.Hint.OrderVolume
-1.8.2.4	Trade.TradeHistory.Hint.OrderVolume
+1.8.2.3.1	Trade.TradeHistory.Hint.OrderVolumeDetail
+1.8.2.4	Trade.TradeHistory.Hint.OrderPrice
+1.8.2.4.1	Trade.TradeHistory.Hint.OrderPriceDetail
 1.8.2.5	Trade.TradeHistory.Hint.TradingFee
+1.8.2.5.1	Trade.TradeHistory.Hint.TradingFeeDetail
 1.8.2.6	Trade.TradeHistory.Hint.PCF
+1.8.2.6.1	Trade.TradeHistory.Hint.PCFDetail
 1.8.2.7	Trade.TradeHistory.Hint.Compensation
+1.8.2.7.1	Trade.TradeHistory.Hint.CompensationDetail
 2.1.1.1	Rewards.Mining.Card.PositionMining
 2.1.1.2	Rewards.Mining.Card.PositionHeld
 2.1.1.3	Rewards.Mining.Card.AccumulatedReward
@@ -419,3 +442,197 @@
 4.2.1.3	Data.TradeHitory.List.TradeType
 4.2.1.4	Data.TradeHitory.List.Size
 4.2.1.5	Data.TradeHitory.List.Time
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

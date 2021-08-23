@@ -28,6 +28,10 @@ public class LocalesGenerater {
         List<String> lines = IOUtils.readLines(new FileInputStream("src/main/resources/num-key-mapping.txt"), StandardCharsets.UTF_8);
         lines.remove(0);
         for(String line : lines) {
+            if(StringUtils.isWhitespace(line)){
+                continue;
+            }
+
             String key = line.substring(0, line.indexOf("\t")).trim();
             String value = line.substring(line.indexOf("\t") + 1).trim();
 
