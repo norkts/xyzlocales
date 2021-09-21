@@ -5,7 +5,7 @@
 1.1.1.4 	Data
 1.1.1.5 	Click To Login
 1.1.1.6 	Click to connect your wallet
-1.1.1.7 	Connect Wallet
+1.1.1.7	Connect Wallet
 1.1.1.8	Home
 1.1.1.9	Wallet Address
 1.2.1.1 	Connect Wallet
@@ -58,6 +58,7 @@
 1.4.1.3	No Broker Code
 1.4.1.4	The Broker Code you submit does not exist
 1.4.1.5	Submit
+1.4.1.6	Select Or Input Broker Code
 1.4.2.1	Choose Broker
 1.4.2.2	Have Broker Code
 1.4.2.3	No more info.
@@ -399,6 +400,10 @@
 3.1.2.6	Your Code is occupied, choose another one
 3.1.2.7	Broker Info
 3.1.2.8	Commit
+3.1.2.9	Information is incomplete, please re-filled
+3.1.2.10	You can only input letters, numbers and symbols '_ ',' @ ',' $'
+3.1.2.11	Edit
+3.1.2.12	Upload
 3.1.3.1	Acc. Balance
 3.1.3.2	Withdraw
 3.1.3.3	Daily Earning
@@ -406,7 +411,7 @@
 3.1.3.5	Privilege Valid until
 3.1.3.6	My referral page
 3.1.3.7	Days
-3.1.3.8	Until {0}/{1}/{1}
+3.1.3.8	Until {0}/{1}/{2}
 3.1.3.9	Burn
 3.1.3.10	Note:
 3.1.3.11	Derify has Broker system, traders will be trading on our Broker’s page, Derify does not directly provide service.
@@ -432,6 +437,7 @@
 3.1.5.11	Pending ……
 3.1.5.12	Successful
 3.1.5.13	Error, please retry.
+3.1.5.14	Minimum burning {0} eDRF
 3.1.6.1	Account History
 3.1.6.2	Type
 3.1.6.3	Amount
@@ -460,11 +466,11 @@
 4.2.1.3	Trade Type
 4.2.1.4	Size
 4.2.1.5	Time
-
-
-
-
-
+5.1.1.1	Faucet
+5.1.1.2	Address
+5.1.1.3	Get {0} Test USDT
+5.1.1.4	Get Test ETH
+5.1.1.5	You have already claimed Test USDT
 
 
 

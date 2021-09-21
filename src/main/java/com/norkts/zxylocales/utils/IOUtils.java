@@ -4,6 +4,7 @@ import com.google.common.collect.Lists;
 
 import java.io.*;
 import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.List;
 
 public class IOUtils {
@@ -22,7 +23,7 @@ public class IOUtils {
     }
 
     public static List<String> readLines(InputStream inputStream, Charset charset) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream,charset));
         byte[] buff = new byte[256];
         List<String> lines = Lists.newArrayList();
         while (true) {
@@ -36,8 +37,8 @@ public class IOUtils {
     }
 
     public static void writeString(String file, String json) throws IOException {
-        FileWriter writer = new FileWriter(file);
-        writer.write(json);
+        FileOutputStream writer = new FileOutputStream(file);
+        writer.write(json.getBytes(StandardCharsets.UTF_8));
         writer.close();
     }
 }
